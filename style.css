@@ -146,3 +146,22 @@ p {
 .img-fluid {
 	border-radius: 40px;
 }
+
+@media (max-width: 500px) {
+	.img-fluid {
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+
+	img {
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+}
+
+div.col-md-6 {
+	margin: auto;
+	display: block;
+}
