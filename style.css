@@ -159,3 +159,10 @@ div.col-md-6 {
 	margin: auto;
 	display: block;
 }
+
+#headshot {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	padding-bottom: 2rem;
+}
