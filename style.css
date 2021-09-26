@@ -164,5 +164,7 @@ div.col-md-6 {
 	display: block;
 	margin: 0 auto;
 	width: 200px;
-	padding-bottom: 2rem;
+	margin-bottom: 1rem;
+	border-radius: 100%;
+	border: ;
 }
