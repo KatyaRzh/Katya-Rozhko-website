@@ -140,6 +140,7 @@ h3 {
 
 .img-fluid {
 	border-radius: 40px;
+	padding-top: 35px;
 }
 
 @media (max-width: 500px) {
@@ -186,6 +187,6 @@ div.col-md-6 {
 	background-color: #fafaf7;
 }
 
-.container {
+.gray-background {
 	background-color: #fafaf7;
 }
