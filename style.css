@@ -237,7 +237,7 @@ div.col-md-6 {
 	text-align: center;
 	display: block;
 	border-radius: 36px;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 600px;
 	padding: 18px 12px;
 }
@@ -245,5 +245,5 @@ div.col-md-6 {
 .connect:hover {
 	color: cornflowerblue;
 	font-weight: 700px;
-	font-size: 21px;
+	font-size: 19px;
 }
