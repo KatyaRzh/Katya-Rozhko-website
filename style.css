@@ -56,6 +56,7 @@ p {
 	display: flex;
 	margin-top: 10px;
 	justify-content: center;
+	font-weight: 600;
 }
 
 .navigation-links a {
@@ -64,6 +65,10 @@ p {
 	padding: 20px 15px;
 	text-decoration: none;
 	text-transform: capitalize;
+}
+
+.navigation-links a:hover {
+	color: cornflowerblue;
 }
 
 .contact-link {
@@ -170,4 +175,5 @@ div.col-md-6 {
 
 .description {
 	line-height: 3rem;
+	font-weight: normal;
 }
