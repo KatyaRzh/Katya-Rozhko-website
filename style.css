@@ -234,16 +234,22 @@ div.col-md-6 {
 .connect {
 	color: var(--primary-color);
 	box-shadow: var(--box-shadow);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	border-color: #dd145a;
 	text-align: center;
 	display: block;
 	border-radius: 36px;
 	font-size: 18px;
 	font-weight: 600px;
-	padding: 18px 12px;
+	padding: 25px 20px 15px 15px;
+	text-decoration: none;
+	justify-content: center;
+	color: var(--primary-color);
+	font-size: 19px;
+	text-decoration: none;
 }
 
 .connect:hover {
 	color: cornflowerblue;
 	font-weight: 700px;
-	font-size: 19px;
 }
