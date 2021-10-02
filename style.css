@@ -54,7 +54,7 @@ p {
 
 .navigation-links {
 	display: flex;
-	margin-top: 40px;
+	margin-top: 10px;
 	justify-content: center;
 }
 
@@ -166,4 +166,8 @@ div.col-md-6 {
 	width: 200px;
 	margin-bottom: 2rem;
 	border-radius: 100%;
+}
+
+.description {
+	line-height: 3rem;
 }
