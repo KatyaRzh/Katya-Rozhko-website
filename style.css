@@ -82,6 +82,22 @@ h3 {
 	border: 1px solid var(--primary-color);
 }
 
+.project-link {
+	background: var(--primary-color);
+	box-shadow: var(--box-shadow);
+	color: white;
+	padding: 20px 15px;
+	border-radius: 30px;
+	line-height: 6rem;
+	text-decoration: none;
+	font-weight: 600px;
+}
+
+.project-link:hover {
+	color: cornflowerblue;
+	font-weight: 700px;
+}
+
 .homepage-link {
 	color: var(--primary-color);
 	text-align: center;
@@ -109,7 +125,8 @@ h3 {
 }
 
 .email-link:hover {
-	text-decoration: underline;
+	color: cornflowerblue;
+	font-weight: 700px;
 }
 .primary-link {
 	border-radius: 28px;
