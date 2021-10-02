@@ -226,12 +226,12 @@ div.col-md-6 {
 .work-inquiry {
 	background-color: #fafaf7;
 	padding: 30px;
-	margin: 50px 0;
+	margin: 40px 0;
 	display: flex;
 	justify-content: space-between;
 }
 
-.connect {
+/* .connect {
 	color: var(--primary-color);
 	box-shadow: var(--box-shadow);
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -252,4 +252,8 @@ div.col-md-6 {
 .connect:hover {
 	color: cornflowerblue;
 	font-weight: 700px;
+} */
+
+button {
+	background-color: var(--primary-color);
 }
