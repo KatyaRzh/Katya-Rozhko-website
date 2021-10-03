@@ -55,16 +55,7 @@ h3 {
 	margin-top: 10px;
 	justify-content: center;
 	font-weight: 600;
-}
-
-.about-link:hover {
-	color: cornflowerblue;
-	font-size: 18px;
-}
-
-.contact-link:hover {
-	color: cornflowerblue;
-	font-size: 18px;
+	transition: all 150ms ease-in-out;
 }
 
 .contact-link {
@@ -77,6 +68,18 @@ h3 {
 	padding: 22px 20px;
 	text-decoration: none;
 	text-transform: capitalize;
+	transition: all 150ms ease-in;
+}
+
+.contact-link:hover {
+	color: whitesmoke;
+}
+
+.contact-link:active {
+	background-color: white;
+	color: var(--primary-color);
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }
 
 .about-link {
@@ -89,6 +92,18 @@ h3 {
 	padding: 22px 20px;
 	text-decoration: none;
 	text-transform: capitalize;
+	transition: all 150ms ease-in;
+}
+
+.about-link:hover {
+	color: var(--primary-color);
+}
+
+.about-link:active {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }
 
 .project-link {
