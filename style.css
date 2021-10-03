@@ -325,14 +325,6 @@ footer .social-links a:hover {
 	padding: 20px 0;
 }
 
-ul li {
-	text-align: center;
-	display: block;
-	margin: auto;
-	padding: 20px 0;
-	max-width: 85%;
-}
-
 .tools {
 	background-color: #fafaf7;
 	border-radius: 40px;
@@ -348,4 +340,30 @@ ul li {
 	font-weight: lighter;
 	font-family: "Hind Vadodara", sans-serif;
 	margin: 0 60px;
+}
+
+.experience-1 {
+	background-color: var(--secondary-color);
+	margin: 0 30px;
+	border-radius: 20px;
+	padding: 25px;
+}
+
+.experience-2 {
+	background-color: var(--secondary-color);
+	margin: 0 30px;
+	border-radius: 20px;
+	padding: 25px;
+}
+
+.experience-3 {
+	background-color: var(--secondary-color);
+	margin: 0 30px;
+	border-radius: 20px;
+	padding: 25px;
+}
+
+.subtitle-for-experiences {
+	font-family: "Hind Vadodara", sans-serif;
+	font-weight: bolder;
 }
