@@ -231,6 +231,9 @@ h3 {
 		display: block;
 		margin: auto;
 	}
+	.bio {
+		display: none;
+	}
 }
 
 div.col-md-6 {
